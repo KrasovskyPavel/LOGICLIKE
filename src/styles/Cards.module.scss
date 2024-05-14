@@ -1,0 +1,30 @@
+//  CARDS
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+    height: fit-content;
+}
+
+.card {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    box-shadow: 0px 10px 13px -4px rgba(35, 35, 95, 0.19);
+    overflow: hidden;
+
+    .img_container {
+        display: flex;
+        justify-content: center;
+        img {
+            max-height: 162px;
+        }
+    }
+
+    h3 {
+        margin: 0;
+        padding: 12px 18px 18px;
+    }
+}
